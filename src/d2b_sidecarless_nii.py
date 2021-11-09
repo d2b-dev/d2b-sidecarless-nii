@@ -69,7 +69,7 @@ def _log_num_found_sidecarless_niis(logger: logging.Logger, n_niis: int):
 
 def _log_all_found_sidecarless_niis(logger: logging.Logger, niis: list[Path]):
     for nii in niis:
-        logger.debug(f"- File [{nii}] has no associated sidecar file.")
+        logger.debug(f"➖ File [{nii}] has no associated sidecar file.")
 
 
 def _log_num_sidecars_created(logger: logging.Logger, n_sidecars: int):
@@ -78,7 +78,7 @@ def _log_num_sidecars_created(logger: logging.Logger, n_sidecars: int):
 
 def _log_all_sidecars_created(logger: logging.Logger, sidecars: list[Path]):
     for sidecar in sidecars:
-        logger.debug(f"- Generated sidecar file [{sidecar}]")
+        logger.debug(f"➖ Generated sidecar file [{sidecar}]")
 
 
 if pytest:
