@@ -43,6 +43,7 @@ pylint = "^2.11.1"
 reorder-python-imports = "^2.6.0"
 pre-commit = "^2.15.0"
 bump2version = "^1.0.1"
+pytest = "^6.2.5"
 
 [tool.poetry.plugins.d2b]
 "sidecarless_nii" = "d2b_sidecarless_nii"
