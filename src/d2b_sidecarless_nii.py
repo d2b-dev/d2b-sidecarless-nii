@@ -13,7 +13,7 @@ if TYPE_CHECKING:
     from d2b.d2b import D2B
 
 try:
-    import pytest
+    import pytest  # type: ignore
 except ModuleNotFoundError:
     pytest = None
 
